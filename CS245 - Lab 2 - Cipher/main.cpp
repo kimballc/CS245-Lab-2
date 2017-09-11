@@ -48,8 +48,8 @@ int main()
 	cout << nh_actual_text << endl;
 
 	// C.K.
-	std::string ck_actual_text = decrypt("TWDM QA EPIB UISMA I ACJIZC I ACJIZC", 0);
-	std::string ck_expected_text = "";
+	std::string ck_actual_text = decrypt("TWDM QA EPIB UISMA I ACJIZC I ACJIZC", -8);
+	std::string ck_expected_text = "LOVE IS WHAT MAKES A SUBURA A SUBARU";
 	cout << ck_actual_text << endl;
 
 	// D.P.
@@ -68,9 +68,9 @@ int main()
 	cout << ds_actual_text << endl;
 
 	// T.T.
-	std::string tt_text = decrypt("UHU KHLL PTL T WKBEE BGLMKNVMHK BG MAX NGBMXW LMTMXL TBK YHKVX", 0);
-	std::string tt_text = "";
-	cout << tt_text << endl;
+	std::string tt_actual_text = decrypt("UHU KHLL PTL T WKBEE BGLMKNVMHK BG MAX NGBMXW LMTMXL TBK YHKVX", 0);
+	std::string tt_expected_text = "";
+	cout << tt_actual_text << endl;
 
 }
 

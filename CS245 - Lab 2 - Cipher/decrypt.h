@@ -4,9 +4,10 @@
 #include "stdafx.h"
 #include <string>
 
+using std::string;
 // Function declaration:z
 // decrypt(string &cipher_text, unsigned key)
 
-string decrypt(string &, unsigned);
+string decrypt(const string &, unsigned int);
 
 #endif
